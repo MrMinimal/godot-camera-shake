@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://daumxjq7jnjp8"]
+
+[ext_resource type="Script" path="res://addons/mrminimal_camera_shake/scripts/shaky_camera.gd" id="1_qbxm1"]
+[ext_resource type="AnimationLibrary" uid="uid://n8a7jdk5h04r" path="res://addons/minimal_camera_shake/animations/shaky_camera_lib.tres" id="2_50qhk"]
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_wkale"]
+
+[node name="ShakyCamera" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 21.0064)
+script = ExtResource("1_qbxm1")
+animation = "Investigation"
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_wkale"),
+"shaky_cam_lib": ExtResource("2_50qhk")
+}
+speed_scale = 24.0
+
+[node name="Camera" type="Camera3D" parent="."]
+transform = Transform3D(0.999623, 0.00833389, -0.0261456, -0.00661269, 0.997848, 0.0652406, 0.026633, -0.0650432, 0.997527, 0.021819, 0.004563, -0.003604)
+fov = 75.0

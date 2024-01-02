@@ -1,0 +1,18 @@
+[gd_resource type="AnimationLibrary" load_steps=7 format=3 uid="uid://n8a7jdk5h04r"]
+
+[ext_resource type="Animation" uid="uid://ch15l2un85pe6" path="res://addons/shaky_camera/animations/investigation.tres" id="1_i7cx0"]
+[ext_resource type="Animation" uid="uid://du111jgkxrfkm" path="res://addons/shaky_camera/animations/closeup.tres" id="2_7alpe"]
+[ext_resource type="Animation" uid="uid://d4m4p17pdt2q4" path="res://addons/shaky_camera/animations/wedding.tres" id="3_x72w1"]
+[ext_resource type="Animation" uid="uid://clns6evqodg0r" path="res://addons/shaky_camera/animations/walked_to_store.tres" id="4_4r86r"]
+[ext_resource type="Animation" uid="uid://cpbk8vvkq83jw" path="res://addons/shaky_camera/animations/run.tres" id="5_mn3em"]
+[ext_resource type="Animation" uid="uid://b73mxu5dd3kew" path="res://addons/shaky_camera/animations/out_of_car.tres" id="6_772h0"]
+
+[resource]
+_data = {
+"closeup": ExtResource("2_7alpe"),
+"investigation": ExtResource("1_i7cx0"),
+"out_of_car": ExtResource("6_772h0"),
+"run": ExtResource("5_mn3em"),
+"walked_to_store": ExtResource("4_4r86r"),
+"wedding": ExtResource("3_x72w1")
+}
