@@ -36,3 +36,5 @@ The `ShakyCamera` node you can add to your scene has configurable parameters on 
 Based on the Blender addon [camera_shakify](https://github.com/EatTheFuture/camera_shakify)
 
 Examples based on [abandoned spaceship demo](https://github.com/perfoon/Abandoned-Spaceship-Godot-Demo)
+
+There is now an improved version of this by [@synalice](https://github.com/synalice)
