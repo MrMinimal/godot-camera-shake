@@ -1,4 +1,4 @@
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/E1E3RYFSW)
+[![Donate](https://img.shields.io/static/v1?label=enjoying%20the%20project?%20&style=for-the-badge&message=DONATE&logo=paypal&labelColor=darkorange&color=blue)](https://www.paypal.com/paypalme/tomlangwaldt)
 
 # Godot Camera Shake
 This addon provides cinematic camera shake presets recorded in the real world.
